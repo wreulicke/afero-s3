@@ -2,10 +2,11 @@
 
 
 [[projects]]
-  digest = "1:ff93b72cfe8f0ea34a6b2a5ec76061996451e8eb547e05ec1c333d1c9d17d4c4"
+  digest = "1:015db65f12c6f8c5a7a31e8dfba114b4ba916e5e74203850339bad77d1e8210b"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
+    "aws/arn",
     "aws/awserr",
     "aws/awsutil",
     "aws/client",
@@ -40,13 +41,14 @@
     "private/protocol/restxml",
     "private/protocol/xml/xmlutil",
     "service/s3",
+    "service/s3/internal/arn",
     "service/s3/s3iface",
     "service/sts",
     "service/sts/stsiface",
   ]
   pruneopts = ""
-  revision = "6bb638a9cf6177e3cc9748a95a2410bb26f1f426"
-  version = "v1.25.8"
+  revision = "65f671578f7e006706e6e28804a8b016cb4fbefb"
+  version = "v1.26.0"
 
 [[projects]]
   digest = "1:617b3e0f5989d4ff866a1820480990c65dfc9257eb080da749a45e2d76681b02"
