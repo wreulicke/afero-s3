@@ -2,7 +2,7 @@
 
 
 [[projects]]
-  digest = "1:22b4b0d810fb22522404a16a0d8644f1b913d8be16f3a90d2f71d5303b49f017"
+  digest = "1:3cd8344f73a071fae2083481a4c3d0f1605c71d5bce47387a554ba7315ab9eec"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -26,7 +26,9 @@
     "aws/signer/v4",
     "internal/context",
     "internal/ini",
-    "internal/s3err",
+    "internal/s3shared",
+    "internal/s3shared/arn",
+    "internal/s3shared/s3err",
     "internal/sdkio",
     "internal/sdkmath",
     "internal/sdkrand",
@@ -34,6 +36,7 @@
     "internal/shareddefaults",
     "internal/strings",
     "internal/sync/singleflight",
+    "private/checksum",
     "private/protocol",
     "private/protocol/eventstream",
     "private/protocol/eventstream/eventstreamapi",
@@ -44,14 +47,13 @@
     "private/protocol/restxml",
     "private/protocol/xml/xmlutil",
     "service/s3",
-    "service/s3/internal/arn",
     "service/s3/s3iface",
     "service/sts",
     "service/sts/stsiface",
   ]
   pruneopts = ""
-  revision = "c0b0c0ef0e165429fe23a5da6cb8bcdd7c54758c"
-  version = "v1.29.7"
+  revision = "c40a73ace9f6c873ca8743dcbe8c9d8df5091acb"
+  version = "v1.35.7"
 
 [[projects]]
   digest = "1:617b3e0f5989d4ff866a1820480990c65dfc9257eb080da749a45e2d76681b02"
