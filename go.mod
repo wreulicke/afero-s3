@@ -3,7 +3,7 @@ module github.com/wreulicke/afero-s3/v2
 go 1.15
 
 require (
-	github.com/aws/aws-sdk-go v1.36.7
+	github.com/aws/aws-sdk-go v1.36.16
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/kr/text v0.2.0 // indirect
 	github.com/spf13/afero v1.5.1
