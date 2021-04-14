@@ -1,6 +1,9 @@
-## Readme
+## afero-s3
 
-Provide afero filesystem with S3 as backend.
+This is no longer maintained.
+Please consider to use https://github.com/fclairamb/afero-s3 .
+
+~~Provide afero filesystem with S3 as backend.~~
 
 ## Thanks
 
